@@ -3,11 +3,19 @@ box-sizing: border-box;
 padding: 0;
 margin: 0;
 }
+
+/* The code below sets up the style that I wanted for the body of the 
+website such as font styles and coloring. */
+
 body {
   background-color: #262328;
   color: #f5f5f4;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+
+/* All of the headers set up the navigation bar and its' styling. A major
+source of inspiration for this came from https://github.com/coding-boot-camp/urban-octo-telegram by Xandromus.
+I used this as a reference for the Navigation bar, but changed a few elements to make it unique for my own site.*/
 
 .header {
   padding: 25px;
@@ -44,18 +52,23 @@ nav a {
   color: #f5f5f4;
 }
 
+/* I used this tag to change the style of the links on the Nav bar so it responds to your mouse
+when it hovers over the specific tags. */
+
 nav a:hover {
-  text-decoration: none; /* Remove underline on hover */
-  color:#3d97fd; /* Change text color on hover */
-  background-color: rgb(212, 212, 212); /* Change background color on hover */
-  box-shadow: 0 0 10px rgba(238, 237, 237, 0.7); /* Add a glow effect */
-  transform: scale(1.2); /* Increase size on hover */
+  text-decoration: none;
+  color:#3d97fd;
+  background-color: rgb(212, 212, 212); 
+  box-shadow: 0 0 10px rgba(238, 237, 237, 0.7);
+  transform: scale(1.2);
 }
 
 .content{
   display:flex;
   Background-color:#888889; 
 }
+
+/* container class is the positioning and style for the profile picture that shows up in the about me page. */
 
 .container{
   display: block;
@@ -68,6 +81,8 @@ nav a:hover {
   margin-bottom: 50px;
 border-radius: 10px;
 }
+
+/* stylizes the text inside the about me box */
 
 .about h2 {
   display: inline-block;
@@ -137,39 +152,44 @@ h2 {
   font-size: 29.66px;
 }
 a {
-  transition: all 0.3s ease; /* Add a smooth transition effect */
+  transition: all 0.3s ease; 
 }
 
+/* makes the image you hover over increase in size over all the other images. Also 
+stylizes it a bit. */
+
 a:hover {
-    text-decoration: none; /* Remove underline on hover */
-    color:#3d97fd; /* Change text color on hover */
-    background-color: rgb(212, 212, 212); /* Change background color on hover */
-    box-shadow: 0 0 10px rgba(238, 237, 237, 0.7); /* Add a glow effect */
-    transform: scale(1.2); /* Increase size on hover */
+    text-decoration: none; 
+    color:#3d97fd; 
+    background-color: rgb(212, 212, 212); 
+    box-shadow: 0 0 10px rgba(238, 237, 237, 0.7); 
+    transform: scale(1.2); 
   }
 
+/* The tags below are to stylize all of the image links on the webpage. I wanted the images themselves to become links to websites. */
+
   .image-link1 {
-    display: inline-block; /* Ensures the link takes the size of the image */
-    width: 500px; /* Set the desired width */
-    height: 500px; /* Set the desired height */
-    background-image: url("../Images/image.png"); /* Specify the path to your image */
-    background-size: cover; /* Adjusts the image size to cover the link */
+    display: inline-block; 
+    width: 500px; 
+    height: 500px; 
+    background-image: url("../Images/image.png"); 
+    background-size: cover;
   }
 
   .image-link2 {
-    display: inline-block; /* Ensures the link takes the size of the image */
-    width: 500px; /* Set the desired width */
-    height: 500px; /* Set the desired height */
-    background-image: url("../Images/IMG-2468.jpg"); /* Specify the path to your image */
-    background-size: cover; /* Adjusts the image size to cover the link */
+    display: inline-block; 
+    width: 500px;
+    height: 500px; 
+    background-image: url("../Images/IMG-2468.jpg"); 
+    background-size: cover; 
   }
 
   .image-link3 {
-    display: inline-block; /* Ensures the link takes the size of the image */
-    width: 500px; /* Set the desired width */
-    height: 500px; /* Set the desired height */
-    background-image: url("../Images/IMG-2479.jpg"); /* Specify the path to your image */
-    background-size: cover; /* Adjusts the image size to cover the link */
+    display: inline-block;
+    width: 500px; 
+    height: 500px; 
+    background-image: url("../Images/IMG-2479.jpg"); 
+    background-size: cover;
   }
 
   .image-link p {
@@ -178,3 +198,4 @@ a:hover {
   text-decoration: none;
   color: #f5f5f4;
   }
+  
